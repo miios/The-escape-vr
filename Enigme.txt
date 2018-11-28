@@ -1,0 +1,31 @@
+C'est eteint
+tableau electrique
+Trouver le generateur pour allumer les lumieres / 5s -> PC (Pas le projecteur)
+
+Enigme (pc) //
+
+Feuille de papier avec des numeros dessus en couleur genre (1/2/3/4)
+Et les livres on la couleur qui corespond a numero
+puis sur le dos du livre une combinaison (< . > haut bas) 
+
+  
+< . >
+
+
+
+////
+
+Allumer le projecteur
+
+
+
+
+-- Ordre de truc --
+
+Allumer le generateur -> Print
+
+Enigme Print -> Allumer les PC
+
+Enigme PC -> Projo
+
+Enigme Projo -> FIN
