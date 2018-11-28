@@ -22,7 +22,7 @@ Allumer le projecteur
 
 -- Ordre de truc --
 
-Allumer le generateur -> Print
+Allumer le generateur -> Print cfé
 
 Enigme Print -> Allumer les PC
 
