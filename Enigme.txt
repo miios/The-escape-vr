@@ -18,13 +18,19 @@ puis sur le dos du livre une combinaison (< . > haut bas)
 Allumer le projecteur
 
 
+// Enigme print //
+Rouge -> Jaune -> Bleu -> Vert
+
+| >>< | >>> | <<> | > |
+Code: '>><>>><<>>'
+
 
 
 -- Ordre de truc --
 
 Allumer le generateur -> Print cfé
 
-Enigme Print -> Allumer les PC
+Enigme Print -> Allumer les PC cfé
 
 Enigme PC -> Projo
 
