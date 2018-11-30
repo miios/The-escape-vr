@@ -1,37 +1,21 @@
-C'est eteint
-tableau electrique
-Trouver le generateur pour allumer les lumieres / 5s -> PC (Pas le projecteur)
-
-Enigme (pc) //
-
-Feuille de papier avec des numeros dessus en couleur genre (1/2/3/4)
-Et les livres on la couleur qui corespond a numero
-puis sur le dos du livre une combinaison (< . > haut bas) 
-
-  
-< . >
-
-
-
-////
-
-Allumer le projecteur
 
 
 // Enigme print //
 Rouge -> Jaune -> Bleu -> Vert
 
 | >>< | >>> | <<> | > |
+
 Code: '>><>>><<>>'
 
+--Ordre des enigmes salle 1:
+Enigme du coffre -> donne une clé pour la porte
+
+--Ordre des énigmes salle 2:
 
 
--- Ordre de truc --
+Allumer le generateur -> Print
+Enigme Print -> Allumer les PC 
 
-Allumer le generateur -> Print cfé
 
-Enigme Print -> Allumer les PC cfé
-
-Enigme PC -> Projo
-
-Enigme Projo -> FIN
+Enigme PC -> Projo FIN
+Clic Projo -> ramene au lobby

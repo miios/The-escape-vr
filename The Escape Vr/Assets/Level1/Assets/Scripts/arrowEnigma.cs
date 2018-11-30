@@ -8,6 +8,7 @@ public class arrowEnigma : MonoBehaviour {
 	public Collider handRight;
 	//public Material pcOnMat;
 	public GameObject[] pc;
+	public Light boardLight;
 
 	private Material material; 
 	private Shader pcOnMat;
@@ -38,6 +39,7 @@ public class arrowEnigma : MonoBehaviour {
 		for (int i = 0; i < pc.Length; i++)	{
 			Renderer matPc = pc[i].transform.GetChild(1).GetComponent<Renderer>();
 			Light lightPc = pc[i].transform.GetChild(3).GetComponent<Light>();
+			boardLight.enabled = true;
 			matPc.material.shader = pcOnMat;
 			lightPc.enabled = true;
 		}
