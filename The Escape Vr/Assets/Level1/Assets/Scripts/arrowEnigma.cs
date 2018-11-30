@@ -6,16 +6,15 @@ public class arrowEnigma : MonoBehaviour {
 	public TextMesh textHolder;
 	public Collider handLeft;
 	public Collider handRight;
-	//public Material pcOnMat;
+	public GameObject keyboard;
 	public GameObject[] pc;
 	public Light boardLight;
 
-	private Material material; 
+	private Material material;
 	private Shader pcOnMat;
 
 	
 	void Start() {
-		//material = GetComponent<Renderer>().material;
 		pcOnMat = Shader.Find("Legacy Shaders/Self-Illumin/Bumped Specular");
 	}
 	
@@ -28,7 +27,6 @@ public class arrowEnigma : MonoBehaviour {
 			else {
 				if (textHolder.text == ">><>>><<>>")
 					allumerPc();
-					//buttonError();
 
 				textHolder.text = "";
 			}
@@ -42,10 +40,8 @@ public class arrowEnigma : MonoBehaviour {
 			boardLight.enabled = true;
 			matPc.material.shader = pcOnMat;
 			lightPc.enabled = true;
+			keyboard.SetActive(true);
 		}
 	}
 
-	// void buttonError() {
-	// 	material.color = Color.red;
-	// }
 }

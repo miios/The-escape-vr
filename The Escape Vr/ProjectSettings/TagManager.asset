@@ -6,6 +6,7 @@ TagManager:
   tags:
   - colliderLeft
   - colliderRight
+  - keyEnter
   layers:
   - Default
   - TransparentFX
