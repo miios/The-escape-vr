@@ -9,6 +9,7 @@ public class keyboard : MonoBehaviour {
 	public Collider handRight;
 	public TextMesh textEnd;
 	public Light projectorLight;
+	public Light SuccessLight;
 	
 	void OnTriggerEnter(Collider col) {
 		if (col == handLeft || col == handRight) {
@@ -16,8 +17,9 @@ public class keyboard : MonoBehaviour {
 
 			if (this.tag == "keyEnter") {
 				if (textHolder.text == "PROJECTEUR") {
-					textEnd.text = "Bravo !\nVous avez\nTerminer";
+					textEnd.text = "Bravo !\nVous avez\nTerminé";
 					projectorLight.enabled = true;
+					SuccessLight.enabled = true;
 				}
 					
 				textHolder.text = "";

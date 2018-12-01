@@ -8,12 +8,14 @@ public class lamp_allume : MonoBehaviour {
 	public SphereCollider LeftHands;
 	public SphereCollider RightHands;
 	// Use this for initialization
+	public Light SuccessLight;
 	public Light[] OfficeLight;
 	public GameObject Paper;
 	void OnTriggerEnter(Collider col) {
 		if (col == LeftHands || col == RightHands) {
 			for (int i = 0; i < OfficeLight.Length; i++)
 				OfficeLight[i].enabled = true;
+			SuccessLight.enabled = true;
 			Paper.SetActive(true);
 		}
 	}

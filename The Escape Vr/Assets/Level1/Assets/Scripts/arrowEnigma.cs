@@ -9,6 +9,7 @@ public class arrowEnigma : MonoBehaviour {
 	public GameObject keyboard;
 	public GameObject[] pc;
 	public Light boardLight;
+	public Light SuccessLight;
 
 	private Material material;
 	private Shader pcOnMat;
@@ -41,6 +42,7 @@ public class arrowEnigma : MonoBehaviour {
 			matPc.material.shader = pcOnMat;
 			lightPc.enabled = true;
 			keyboard.SetActive(true);
+			SuccessLight.enabled = true;
 		}
 	}
 
