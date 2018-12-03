@@ -7,6 +7,10 @@ TagManager:
   - colliderLeft
   - colliderRight
   - keyEnter
+  - blue
+  - red
+  - yellow
+  - green
   layers:
   - Default
   - TransparentFX

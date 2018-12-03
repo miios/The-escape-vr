@@ -53,10 +53,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Level1\Assets\Keypad\Script\Playsound.cs" />
      <Compile Include="Assets\Level1\Assets\Scripts\arrowEnigma.cs" />
+     <Compile Include="Assets\Level1\Assets\Scripts\book_enigma.cs" />
      <Compile Include="Assets\Level1\Assets\Scripts\keyboard.cs" />
+     <Compile Include="Assets\Level1\Assets\Scripts\keypad.cs" />
      <Compile Include="Assets\Level1\Assets\Scripts\lamp_allume.cs" />
+     <Compile Include="Assets\Level1\Assets\Scripts\open_door.cs" />
+     <Compile Include="Assets\Level1\Assets\Scripts\pic_fire.cs" />
+     <Compile Include="Assets\Level1\Assets\Scripts\spawn_colorBooks.cs" />
      <Compile Include="Assets\Oculus\AudioManager\Scenes\Scripts\TestScript.cs" />
      <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AmbienceEmitter.cs" />
      <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AudioManager.cs" />
